@@ -11,15 +11,15 @@ The outputs on the right are the ones given when face-2, a different face image 
 
 <b>Counting moving objects in video (Connected Components Algorithm)</b> 
 
-<img src = 'CVCWScreenshot/ObjCount1.png' height=400 width=700/>
-
-<img src = 'CVCWScreenshot/ObjCount2.png' height=400 width=600/>
-
 Challenges faced during implementation -
 
 a) Choosing a threshold value that will get rid of all noises but also keep every moving object pixel in the image. Noises themselves will get counted as objects if they are not removed.
 b) Frames in the video where two moving objects conflict. Both of them will be interpreted as a single object.
 c) Moving objects very far away are barely visible in a thresholded binary image. At one point they look like a couple of dots.
+
+<img src = 'CVCWScreenshot/ObjCount1.png' height=400 width=700/>
+
+<img src = 'CVCWScreenshot/ObjCount2.png' height=400 width=600/>
 
 Steps taken to achieve task –
 
@@ -33,11 +33,12 @@ Steps taken to achieve task –
 The visual plot above shows the result of the procedure I described above. The results are not 100% accurate as the objects were not connected entirely in every frame. The dilation didn’t work perfectly for all frames. Other techniques for pre-processing the binary image before applying the algorithm may give better results.
 
 
-<b>Motion Estimation Using Block Matching Algorithm</b>
+<b style="text-align:center;" >Motion Estimation Using Block Matching Algorithm</b>
 
+Superimposition of the motion vectors on the next frame
 
 <img src = 'CVCWScreenshot/Motion1.png' height=500 width=700/>
 
-  Prediction of next frame using motion vectors learned using block matching algorithm
+Prediction of next frame using motion vectors learned using block matching algorithm
 
 <img src = 'CVCWScreenshot/Motion2.png' height=400 width=800/>
