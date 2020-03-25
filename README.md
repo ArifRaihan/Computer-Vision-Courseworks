@@ -31,3 +31,13 @@ Steps taken to achieve task –
 
 4)Connected component – I implement the connected components algorithm in a function and use it on the dilated frames to count the number of objects. This algorithm scans through all the pixels and assigns labels to connected pixels in the same region.
 The visual plot above shows the result of the procedure I described above. The results are not 100% accurate as the objects were not connected entirely in every frame. The dilation didn’t work perfectly for all frames. Other techniques for pre-processing the binary image before applying the algorithm may give better results.
+
+
+<b>Motion Estimation Using Block Matching Algorithm</b>
+
+
+<img src = 'CVCWScreenshot/Motion1.png' height=500 width=700/>
+
+  Prediction of next frame using motion vectors learned using block matching algorithm
+
+<img src = 'CVCWScreenshot/Motion2.png' height=400 width=800/>
