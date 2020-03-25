@@ -7,12 +7,13 @@ The classifier uses the histogram intersection similarity measure to compare two
 <img src = 'CVCWScreenshot/LBPClassifier.png'/>
 <img src = 'CVCWScreenshot/LBPClassifier2.png'/>
 
+The outputs on the right are the ones given when face-2, a different face image is used as a reference image for face. This is a problem regarding these images in the dataset because the histogram similarity that we get between a face and face or a car and car is almost similar to that between a car and a face
 
 <b>Counting moving objects in video (Connected Components Algorithm)</b> 
 
+<img src = 'CVCWScreenshot/ObjCount1.png' height=400 width=700/>
 
-<img src = 'CVCWScreenshot/ObjCount1.png'/>
-<img src = 'CVCWScreenshot/ObjCount2.png'/>
+<img src = 'CVCWScreenshot/ObjCount2.png' height=400 width=600/>
 
 Challenges faced during implementation -
 
