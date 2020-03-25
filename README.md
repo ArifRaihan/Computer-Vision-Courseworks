@@ -10,6 +10,10 @@ The classifier uses the histogram intersection similarity measure to compare two
 
 <b>Counting moving objects in video (Connected Components Algorithm)</b> 
 
+
+<img src = 'CVCWScreenshot/ObjCount1.png'/>
+<img src = 'CVCWScreenshot/ObjCount2.png'/>
+
 Challenges faced during implementation -
 
 a) Choosing a threshold value that will get rid of all noises but also keep every moving object pixel in the image. Noises themselves will get counted as objects if they are not removed.
