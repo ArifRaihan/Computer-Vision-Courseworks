@@ -39,6 +39,6 @@ Superimposition of the motion vectors on the next frame
 
 <img src = 'CVCWScreenshot/Motion1.png' height=500 width=700/>
 
-Prediction of next frame using motion vectors learned using block matching algorithm
+Prediction of next frame using motion vectors learned by block matching algorithm
 
 <img src = 'CVCWScreenshot/Motion2.png' height=400 width=800/>
